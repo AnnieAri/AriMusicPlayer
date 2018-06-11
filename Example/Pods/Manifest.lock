@@ -1,0 +1,27 @@
+PODS:
+  - AriMusicPlayer (0.1.0):
+    - FreeStreamer
+  - FreeStreamer (3.8.3):
+    - Reachability (~> 3.0)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - AriMusicPlayer (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FreeStreamer
+    - Reachability
+
+EXTERNAL SOURCES:
+  AriMusicPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AriMusicPlayer: f0945b7476883265e2d6e446cff6774806e0d5e5
+  FreeStreamer: b205b0bf6a2e7855f935369145498f930eb27cac
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+PODFILE CHECKSUM: e62581451dffc8378ae7e1fd167aae592cbfe652
+
+COCOAPODS: 1.5.0

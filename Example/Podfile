@@ -1,11 +1,6 @@
-use_frameworks!
-
+#source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://gitee.com/ariCode/Ari'
 target 'AriMusicPlayer_Example' do
   pod 'AriMusicPlayer', :path => '../'
-
-  target 'AriMusicPlayer_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  pod 'MyCategory'
 end

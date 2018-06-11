@@ -1,0 +1,6 @@
+module Pods_AriMusicPlayer_Example [system] {
+  umbrella header "Pods-AriMusicPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
