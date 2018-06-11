@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AriMusicPlayer_Example' do
+  pod 'AriMusicPlayer', :path => '../'
+
+  target 'AriMusicPlayer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
